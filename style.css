@@ -9,6 +9,11 @@ body {
 
 }
 
+hr {
+    border: dotted black 6px;
+    width: 4%;
+}
+
 .top-container {
     position: relative;
 }
