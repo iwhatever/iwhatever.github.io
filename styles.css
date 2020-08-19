@@ -61,12 +61,12 @@ li {
     width: 18%;
     position: relative;
     float: right;
-    left: 60px;
+    left: auto;
 }
 
 .navbar {
     width: 75%;
-    margin: 25px 13% 25px 13%;
+    margin: 25px auto 25px auto;
     font-family: Montserrat,sans-serif;
     background-color: rgb(131, 99, 99);
     border: #4d4b4b 4px solid;
@@ -84,13 +84,13 @@ a:hover {
 }
 
 .top-container {
-    width: 60%;
-    margin: 80px 240px;
+    width: 75%;
+    margin: 80px auto;
 }
 
 .row {
     width: 75%;
-    margin: 25px 13% 25px 13%;
+    margin: 25px auto 25px auto;
     background-color: rgb(131, 99, 99);
     border: #4d4b4b 4px solid;
     border-top-left-radius: 8px;
@@ -138,6 +138,13 @@ span {
     font-size: 2rem;
     text-align: center;
     color: #000000;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
 }
 
 @keyframes animate {
