@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
+<body style="background-image: url(Background.png); ">
+  <div class="top-container">   
+    <header id="title">
+      <h1 class="name">
+      <span>Clarence Sioson                  
+        <img class="flag-img"src="https://image.flaticon.com/icons/svg/555/555603.svg" alt="flag-img">
+      </span> 
+    </h1>   
+      <h4>student at some random school</h4>
+    </header>
+  </div>  
 
-<body>
-    <div class="top-container">
-        <div class="center">
-            <h1 class="animate__animated animate__bounce">I'm the Clarence</h1>
-            <h3>but you can call me whatever.</h3>
-        </div>
-        <img src="Background.png" style='height: 100%; width: 100%; object-fit: contain' alt="Background-img">
+  <div class="navbar">
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+    <div class="content">
+      <h3 id="about">About me</h3>
+       <p>
+         Hello there I'm Clarence Sioson, a 17 years old boy full stack web <br>
+         developer living in the Philippines, I love playing online games <br>
+          making Autohotkey scripts and then decided to be a become a web <br>
+           because, well I think we really need Web Developers here in the <br>
+           Philippines
+         <img src="avatar-img.png" width="250" height="auto" alt="avatar-img" class="avatar-img">
+         <br>
+         <span>Languages</span> : English, Tagalog <br>
+         <span>Nationality</span> : Filipino (Asian);
+        </p>
+
     </div>
 
-<hr></hr>
+    <footer>
+      <p class="copyright">&#169;2020 Clarence Sioson</p>
+    </footer>
 
-    <div class="middle-container">
-        <div>
-            <img src="avatar-img.png" width="250" height="auto" alt="avatar-img" class="avatar-img">
-            <h2>Hey its me</h3>
-            <p class="description">the 12th student that memorizes metamorphic rocks</p>
-         </div>
-
-        <div class="skill">
-            <h1 class="title">My Wonderful Skillfullyness</h2>
-        </div>
-
-        <div class="skill-row">
-         <img class="code-img"src="https://image.flaticon.com/icons/svg/2920/2920277.svg" alt="code-img">
-         <h3> Laziness </h3>
-         <p class="description">I want to code but I can't . <br>I can't focus because I can't stop thinking of you including metamorphic rocks as well.</br></p>
-          </div>
-            <div class="skill-row">
-         <img class="monitor-img"src="https://image.flaticon.com/icons/svg/977/977650.svg" alt="monitor-img">
-         <h3> Very surely hardworking disgusting persistent person</h3>
-         <p class="description">I am a very hardworking person I can stare on the screen for a very very long time procrastinating.</p>
-         </div>
-    </div>
-
+    <script src="app.js"></script>
 </body>
-
 </html>
