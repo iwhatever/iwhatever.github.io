@@ -72,7 +72,7 @@ li {
     border: #4d4b4b 4px solid;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    max-width: 1260px;
+    max-width: 960px;
 }
 
 a {
@@ -87,7 +87,7 @@ a:hover {
 .top-container {
     width: 75%;
     margin: 80px auto;
-    max-width: 1260px;
+    max-width: 960px;
 }
 
 .row {
@@ -97,7 +97,7 @@ a:hover {
     border: #4d4b4b 4px solid;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    max-width: 1260px;
+    max-width: 960px;
 }
 
 .content {
@@ -141,6 +141,18 @@ span {
     font-size: 2rem;
     text-align: center;
     color: #000000;
+}
+
+@media (min-width: 550px){
+    .top-container {
+        width: 80%;
+}
+.navbar {
+    width: 80%;
+}
+.row {
+    width: 80%;
+}
 }
 
 
