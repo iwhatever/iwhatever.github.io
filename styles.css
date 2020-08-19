@@ -72,6 +72,7 @@ li {
     border: #4d4b4b 4px solid;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    max-width: 1260px;
 }
 
 a {
@@ -86,6 +87,7 @@ a:hover {
 .top-container {
     width: 75%;
     margin: 80px auto;
+    max-width: 1260px;
 }
 
 .row {
@@ -95,6 +97,7 @@ a:hover {
     border: #4d4b4b 4px solid;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    max-width: 1260px;
 }
 
 .content {
@@ -140,12 +143,6 @@ span {
     color: #000000;
 }
 
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-}
 
 @keyframes animate {
     100% {
