@@ -10,6 +10,17 @@ body {
     background: #B9D9EB;
 }
 
+.row {
+    display: block;
+    position: relative;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .name {
     font-size: 5rem;
     margin: 0px;
@@ -54,8 +65,8 @@ li {
 }
 
 .navbar {
-    margin-left: 200px;
-    margin-right: 200px;
+    width: 75%;
+    margin: 25px 13% 25px 13%;
     font-family: Montserrat,sans-serif;
     background-color: rgb(131, 99, 99);
     border: #4d4b4b 4px solid;
@@ -77,14 +88,18 @@ a:hover {
     margin: 80px 240px;
 }
 
-.content {
-    width: 918;
-    margin: 25px 200px 25px 200px;
+.row {
+    width: 75%;
+    margin: 25px 13% 25px 13%;
     background-color: rgb(131, 99, 99);
     border: #4d4b4b 4px solid;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    position: relative;
+}
+
+.content {
+    float: left;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -92,32 +107,38 @@ h3 {
     margin-bottom: 0px;
 }
 
-p {
-    margin-left: 25px;
+.textarea {
+    margin: 25px 30% 15px 2%;
     font-size: 2rem;
 }
 
 #about {
-    margin-left: 25px;
+    margin: 25px 30% 25px 2%;
 }
 
 span {
     font-weight: bold;
 }
 
-.avatar-img {
+.avatarsection {
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+
+/* .avatar-img {
     top: 30px;
     display: block;
-    position: absolute;
-    right: 30px;
-}
+    float: left;
+} */
 
 .copyright {
     font-size: 2rem;
     text-align: center;
     color: #000000;
 }
-
 
 @keyframes animate {
     100% {
