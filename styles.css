@@ -54,7 +54,7 @@ nav {
 li {
     margin-right: 20px;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .flag-img {
@@ -98,25 +98,26 @@ a:hover {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     max-width: 960px;
+    text-align: left;
 }
 
 .content {
-    float: left;
     margin-bottom: 30px;
+    padding: 40px;
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0px;
 }
 
 .textarea {
     margin: 25px 30% 15px 2%;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #about {
-    margin: 25px 30% 25px 2%;
+    margin: 25px 30% 20px 2%;
 }
 
 span {
@@ -125,9 +126,6 @@ span {
 
 .avatarsection {
     float: right;
-    position: relative;
-    top: 20px;
-    right: 20px;
 }
 
 
@@ -138,7 +136,7 @@ span {
 } */
 
 .copyright {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #000000;
 }
